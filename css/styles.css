@@ -5,23 +5,61 @@ body {
 
 .column {
   float: left;
-  size: 300px;
+  width: 20%;
   padding: 10px;
   text-align: center;
   background-color: #ffff80;
-  padding-bottom: 1000px;
+  padding-top: 50px;
+  height: 550px;
   margin: 5px;
+  border: 3px solid #ff9900;
 }
 
 img {
-  width: 275px;
+  width: 95%;
+  border: 1px solid #ff9900;
 }
 
 .column p {
   font-style: italic;
+  width: 95%;
 }
 
 .column ul {
   text-align: left;
-  margin-left: 75px;
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 780px) {
+  .column {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .column {
+    width: 93%;
+    margin: 0;
+  }
+}
+/*
+@media screen and (min-width: 1300px) {
+  body {
+    width: 700px;
+  }
+}*/
+
+@media print {
+  body {
+    background-color: transparent;
+  }
+  h1 {
+    text-align: center;
+  }
+  .column {
+    border-color: black;
+  }
+  .column ul {
+    margin-left: 0px;
+  }
 }
