@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background-color: #ff531a;
+}
+
+.column {
+  float: left;
+  size: 300px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffff80;
+  padding-bottom: 1000px;
+  margin: 5px;
+}
+
+img {
+  width: 275px;
+}
+
+.column p {
+  font-style: italic;
+}
+
+.column ul {
+  text-align: left;
+  margin-left: 75px;
+}
